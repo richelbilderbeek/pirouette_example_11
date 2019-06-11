@@ -1,0 +1,53 @@
+% latex table generated in R 3.6.0 by xtable 1.8-4 package
+% Tue Jun 11 10:33:34 2019
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllrr}
+  \hline
+Site model & Clock model & Tree prior & log(evidence) & Weight \\ 
+  \hline
+GTR & RLN & BD & -6365.121 & 0.000 \\ 
+  GTR & RLN & CBS & -6404.240 & 0.000 \\ 
+  GTR & RLN & CCP & -6367.864 & 0.000 \\ 
+  GTR & RLN & CEP & -6532.074 & 0.000 \\ 
+  GTR & RLN & Yule & -6380.535 & 0.000 \\ 
+  GTR & Strict & BD & -6360.409 & 0.000 \\ 
+  GTR & Strict & CBS & -6373.042 & 0.000 \\ 
+  GTR & Strict & CCP & -6376.221 & 0.000 \\ 
+  GTR & Strict & CEP & -6362.067 & 0.000 \\ 
+  GTR & Strict & Yule & -6370.201 & 0.000 \\ 
+  HKY & RLN & BD & -6360.237 & 0.000 \\ 
+  HKY & RLN & CBS & -6381.755 & 0.000 \\ 
+  HKY & RLN & CCP & -6356.105 & 0.000 \\ 
+  HKY & RLN & CEP & -6356.057 & 0.000 \\ 
+  HKY & RLN & Yule & -6357.790 & 0.000 \\ 
+  HKY & Strict & BD & -6360.903 & 0.000 \\ 
+  HKY & Strict & CBS & -6373.417 & 0.000 \\ 
+  HKY & Strict & CCP & -6356.774 & 0.000 \\ 
+  HKY & Strict & CEP & -6370.551 & 0.000 \\ 
+  HKY & Strict & Yule & -6352.485 & 0.000 \\ 
+  JC & RLN & BD & -6360.343 & 0.000 \\ 
+  JC & RLN & CBS & -6355.897 & 0.000 \\ 
+  JC & RLN & CCP & -6355.243 & 0.000 \\ 
+  JC & RLN & CEP & -6347.548 & 0.033 \\ 
+  JC & RLN & Yule & -6344.961 & 0.432 \\ 
+  JC & Strict & BD & -6350.288 & 0.002 \\ 
+  JC & Strict & CBS & -6351.517 & 0.001 \\ 
+  JC & Strict & CCP & -6353.056 & 0.000 \\ 
+  JC & Strict & CEP & -6352.796 & 0.000 \\ 
+  JC & Strict & Yule & -6349.516 & 0.005 \\ 
+  TN & RLN & BD & -6356.849 & 0.000 \\ 
+  TN & RLN & CBS & -6368.103 & 0.000 \\ 
+  TN & RLN & CCP & -6344.761 & 0.528 \\ 
+  TN & RLN & CEP & -6379.775 & 0.000 \\ 
+  TN & RLN & Yule & -6360.145 & 0.000 \\ 
+  TN & Strict & BD & -6364.811 & 0.000 \\ 
+  TN & Strict & CBS & -6359.640 & 0.000 \\ 
+  TN & Strict & CCP & -6363.342 & 0.000 \\ 
+  TN & Strict & CEP & -6378.308 & 0.000 \\ 
+  TN & Strict & Yule & -6358.211 & 0.000 \\ 
+   \hline
+\end{tabular}
+\caption{Evidences of example 5} 
+\label{tab:evidences_example_5}
+\end{table}
