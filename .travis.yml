@@ -14,8 +14,8 @@ r_github_packages:
   - Giappo/mbd
   - jimhester/covr
   - jimhester/lintr
-  - ropensci/beautier
-  - ropensci/beastier
+  - ropensci/beautier@develop
+  - ropensci/beastier@develop
   - ropensci/mauricer
   - ropensci/babette
   - richelbilderbeek/mcbette
