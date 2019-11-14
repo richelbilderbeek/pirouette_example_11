@@ -41,7 +41,6 @@ phylogeny <- create_yule_tree(n_taxa = 6, crown_age = 10)
 
 alignment_params <- create_alignment_params(
   root_sequence = create_blocked_dna(length = 1000),
-  mutation_rate = 0.1,
   rng_seed = rng_seed
 )
 
@@ -75,13 +74,6 @@ pir_params <- create_pir_params(
   alignment_params = alignment_params,
   experiments = experiments
 )
-
-check_pir_params(pir_params)
-
-# Make Peregrine friendly
-pir_params <- peregrine::to_pff_pir_params(pir_params)
-
-check_pir_params(pir_params)
 
 rm_pir_param_files(pir_params)
 
