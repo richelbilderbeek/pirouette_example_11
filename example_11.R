@@ -1,37 +1,11 @@
-# Code of example 11
-#
 # Works under Linux and MacOS only
-#
-#
-
-# Set the RNG seed
-rng_seed <- 314
-args <- commandArgs(trailingOnly = TRUE)
-if (length(args) == 1) {
-  arg <- suppressWarnings(as.numeric(args[1]))
-  if (is.na(arg)) {
-    stop(
-      "Please supply a numerical value for the RNG seed. \n",
-      "Actual value: ", args[1]
-    )
-  }
-  rng_seed <- arg
-  if (rng_seed < 1) {
-    stop("Please supply an RNG seed with a positive non-zero value")
-  }
-}
-if (length(args) > 1) {
-  stop(
-    "Please supply only 1 argument for the RNG seed. \n",
-    "Number of arguments given: ", length(args) - 1
-  )
-}
 
 library(pirouette)
 suppressMessages(library(ggplot2))
 
 root_folder <- getwd()
 example_no <- 11
+rng_seed <- 314
 example_folder <- file.path(root_folder, paste0("example_", example_no, "_", rng_seed))
 dir.create(example_folder, showWarnings = FALSE, recursive = TRUE)
 setwd(example_folder)
