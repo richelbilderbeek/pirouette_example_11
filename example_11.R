@@ -1,9 +1,8 @@
 #
-# Difference from standard: 
+# Difference from standard:
 # - no generative model
 # - no twinning
 #
-# Works under Linux and MacOS only
 library(pirouette)
 
 # Constants
@@ -21,7 +20,8 @@ pir_params <- create_std_pir_params(
   folder_name = folder_name
 )
 pir_params$twinning_params <- NA
-stop("Remove generative model")
+# Remove generative model
+pir_params$experiments <- pir_params$experiments[-1]
 if (is_testing) {
   pir_params <- shorten_pir_params(pir_params)
 }
